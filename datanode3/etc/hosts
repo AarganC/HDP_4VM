@@ -1,0 +1,7 @@
+10.11.10.5	datanode3.ryba	datanode3
+127.0.0.1       localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1		localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+10.11.10.2	master.ryba	master
+10.11.10.3	datanode1.ryba	datanode1
+10.11.10.4	datanode2.ryba	datanode2
