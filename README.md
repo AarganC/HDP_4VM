@@ -40,12 +40,15 @@ HDP_4VM: vagrant ssh VMName
 # Sécuriser les connections ssh.
 # Secure ssh connections.
 //Génère une clé d'authentification pour sécuriser les connexions ssh. Generates an authentication key to secure ssh connections.
+
 [root@VMName ~]$ ssh-keygen
 
 //Changement de dossier. Change of folders.
+
 [root@VMName ~]$ cd .ssh
 
 //Copie du contenue de id_rsa.pub dans authorized_keys. Copy the contents od id_rsa.pub in authorized_keys.
+
 [root@VMName .ssh]cat id_rsa.pub >> authorized_keys
 
 # Ambari
