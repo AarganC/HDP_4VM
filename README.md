@@ -1,14 +1,12 @@
 # HDP_4VM
 Cluster HADOOP_Centos6
 
-# Créer et installer, des machines virtuel avec Vagrant. 
-# Create and setup virtual machine with Vagrant 
+# Créer et installer, des machines virtuel avec Vagrant. Create and setup virtual machine with Vagrant 
 //Construction du cluster. Build the cluster.
 
 HDP_4VM: vagrant up 
 
-# Configuration machine virtuel
-# Configuration virtual machine.
+# Configuration machine virtuel. Configuration virtual machine.
 
 //Connexion SSH. Connection SSH.
 
@@ -37,8 +35,7 @@ HDP_4VM: vagrant ssh VMName
                                    //Configure the state of the machine and synchronizes the cluster.
 [root@VMName ~]$ service ntpd start //Lancement du service ntpd. Launch of the service ntpd.
 
-# Sécuriser les connections ssh.
-# Secure ssh connections.
+# Sécuriser les connections ssh. Secure ssh connections.
 //Génère une clé d'authentification pour sécuriser les connexions ssh. Generates an authentication key to secure ssh connections.
 
 [root@VMName ~]$ ssh-keygen
