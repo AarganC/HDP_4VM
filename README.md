@@ -2,6 +2,7 @@
 Cluster HADOOP_Centos6
 
 //Construction du cluster. Build the cluster.
+
 HDP_4VM: vagrant up 
 
 //Connexion SSH. Connection SSH.
