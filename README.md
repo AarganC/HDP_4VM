@@ -2,9 +2,9 @@
 Cluster HADOOP_Centos6
 
 # Créer et installer, des machines virtuel avec Vagrant. Create and setup virtual machine with Vagrant 
-//Construction du cluster. Build the cluster.
+Construction du cluster. Build the cluster.
 
-HDP_4VM: vagrant up 
+> HDP_4VM: vagrant up 
 
 # Configuration machine virtuel. Configuration virtual machine.
 
