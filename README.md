@@ -27,12 +27,14 @@ Affiche le fichier "hosts". Display the "hosts" files.
 Installation des paquets avec la commande yum install. Package install with the yum install command.
 
 >[root@VMName ~]$ yum install ntp //Service de protocole d'heure réseau. Service of Network Time Protocol 
+
 >[root@VMName ~]$ yum install wget //Service de téléchargement. Service of downloading.
 
 Configuration et lancement du service ntp. Management and launching of the service ntp.
 
 > [root@VMName ~]$ chkconfig ntpd on //Configure l'état de la machine et synchronise le cluster.  
                                    //Configure the state of the machine and synchronizes the cluster.
+                                   
 > [root@VMName ~]$ service ntpd start //Lancement du service ntpd. Launch of the service ntpd.
 
 # Sécuriser les connections ssh. Secure ssh connections.
