@@ -1,4 +1,4 @@
-datanode1.ryba,10.11.10.3 ssh-rsa (datanode1) ==
-datanode2.ryba,10.11.10.4 ssh-rsa (datanode2) ==
-datanode3.ryba,10.11.10.5 ssh-rsa (datanode3) ==
-master.ryba ssh-rsa id_rsa.pub(master) ==
+datanode1.ryba,10.11.10.3 id_rsa.pub(datanode1)
+datanode2.ryba,10.11.10.4 id_rsa.pub(datanode2)
+datanode3.ryba,10.11.10.5 id_rsa.pub(datanode3)
+master.ryba,10.11.10.2 id_rsa.pub(master)
