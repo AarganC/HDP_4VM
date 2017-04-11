@@ -1,4 +1,4 @@
-ssh-rsa id_rsa.pub(master) == root@master.ryba
-ssh-rsa id_rsa.pub(datanode1 == root@datanode1.ryba
-ssh-rsa id_rsa.pub(datanode2) == root@datanode2.ryba
-ssh-rsa id_rsa.pub(datanode3) == root@datanode3.ryba
+id_rsa.pub(master)
+id_rsa.pub(datanode1)
+id_rsa.pub(datanode2)
+id_rsa.pub(datanode3)
